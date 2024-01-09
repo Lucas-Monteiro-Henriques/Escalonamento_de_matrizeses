@@ -1,17 +1,1 @@
-// main.cpp
-#include "organizador.h"
 
-int main() {
-    int tam = 0;
-    cout << "Digite o tamanho da matriz quadrada: ";
-    cin >> tam;
-
-    Organizador organizador(tam);
-
-    organizador.Algoritmo();
-
-    cout << "\nMatriz organizada:\n";
-    organizador.imprimir();
-
-    return 0;
-}
